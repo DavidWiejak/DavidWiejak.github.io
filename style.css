@@ -31,12 +31,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem calc((100vw - 1300px) /4);
+    padding: 0 calc((100vw - 1300px) /4);
     margin-bottom: 2rem;
 }
 
 .logo {
-    padding-top: 1.8rem; /* Abstand nach oben */
+    padding-top: 1.8rem;
 }
 
 .nav-items {
@@ -63,21 +63,21 @@ nav {
 }
 
 .hero-container p.centered-text {
-    text-align: center; /* Zentriert den Text */
-    margin-top: 1rem; /* Optional: Abstand nach oben */
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .hero-container {
     display: grid;
     flex-direction: column;
     height: 30vh;
-    padding: 0rem calc((100vw - 1300px) /4);
+    padding: 0 calc((100vw - 1300px) /4);
 }
 
 .hidden-link {
-    text-decoration: none; /* Entfernt die Unterstreichung */
-    color: inherit; /* Gleiche Farbe wie der umgebende Text */
-    cursor: pointer; /* Zeigt den Zeiger an, wenn darüber gehovt wird */
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
     transition: color 0.3s ease;
 }
 
@@ -103,6 +103,7 @@ nav {
 }
 
 .hero-container ol {
+    list-style-position: inside;
     margin-bottom: 0.4rem;
     font-size: 1.2rem;
 }
@@ -115,9 +116,9 @@ nav {
 
 .grid-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 Spalten */
-    gap: 1.2rem; /* Abstand zwischen den Elementen */
-    list-style-type: decimal; /* Beibehaltung der Nummerierung */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    list-style-type: decimal;
     padding: 0;
     margin: 2rem 0;
 }
@@ -126,21 +127,21 @@ nav {
     font-size: 1.2rem;
     text-align: justify;
     padding: 1rem;
-    background-color: #f9f9f9; /* Optional: Hintergrundfarbe */
-    border-radius: 8px; /* Abgerundete Ecken */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Schatten */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .grid-list li:hover {
-    background-color: #e0e0e0; /* Etwas dunklerer Hintergrund bei Hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stärkerer Schatten bei Hover */
-    cursor: pointer; /* Zeigt eine Hand an, um die Interaktivität zu betonen */
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .styled-hr {
-    border: none; /* Entfernt die Standardlinie */
-    height: 4px; /* Bestimmt die Dicke der Linie */
-    background-color: #f47c23; /* Setzt die Farbe auf coral */
-    margin: 2rem 0; /* Abstand über und unter der Linie */
-    border-radius: 5px; /* Abgerundete Ecken für einen sanfteren Look */
+    border: none;
+    height: 4px;
+    background-color: #f47c23;
+    margin: 2rem 0;
+    border-radius: 5px;
 }
